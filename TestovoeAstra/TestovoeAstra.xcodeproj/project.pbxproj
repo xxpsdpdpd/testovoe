@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		544534BF2B7A375F00706DE2 /* MockCacheSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544534BE2B7A375F00706DE2 /* MockCacheSerivce.swift */; };
+		544534C12B7A556100706DE2 /* MockCacheSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544534C02B7A556100706DE2 /* MockCacheSerivce.swift */; };
+		544534C42B7A559500706DE2 /* TestCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544534C32B7A559500706DE2 /* TestCacheService.swift */; };
+		54C84C5B2B79009000D9E708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C84C5A2B79009000D9E708 /* AppDelegate.swift */; };
+		54C84C5D2B79009000D9E708 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C84C5C2B79009000D9E708 /* SceneDelegate.swift */; };
+		54C84C5F2B79009000D9E708 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C84C5E2B79009000D9E708 /* ViewController.swift */; };
+		54C84C622B79009000D9E708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C84C602B79009000D9E708 /* Main.storyboard */; };
+		54C84C642B79009300D9E708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C84C632B79009300D9E708 /* Assets.xcassets */; };
+		54C84C672B79009300D9E708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C84C652B79009300D9E708 /* LaunchScreen.storyboard */; };
+		54C84C722B79009300D9E708 /* TestovoeAstraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C84C712B79009300D9E708 /* TestovoeAstraTests.swift */; };
+		54C84C7C2B79009300D9E708 /* TestovoeAstraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C84C7B2B79009300D9E708 /* TestovoeAstraUITests.swift */; };
+		54C84C7E2B79009300D9E708 /* TestovoeAstraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C84C7D2B79009300D9E708 /* TestovoeAstraUITestsLaunchTests.swift */; };
+		54C84C8D2B79029300D9E708 /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C84C8C2B79029300D9E708 /* CacheService.swift */; };
+		54C84C8F2B7902A900D9E708 /* CacheErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C84C8E2B7902A900D9E708 /* CacheErrors.swift */; };
+		54C84C922B7902B400D9E708 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C84C912B7902B400D9E708 /* Cache.swift */; };
+		54C84C952B7902BF00D9E708 /* KeyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C84C942B7902BF00D9E708 /* KeyType.swift */; };
+		54C84C972B7902CA00D9E708 /* ValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C84C962B7902CA00D9E708 /* ValueType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54C84C6E2B79009300D9E708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C84C4F2B79009000D9E708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C84C562B79009000D9E708;
+			remoteInfo = TestovoeAstra;
+		};
+		54C84C782B79009300D9E708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C84C4F2B79009000D9E708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C84C562B79009000D9E708;
+			remoteInfo = TestovoeAstra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		544534BE2B7A375F00706DE2 /* MockCacheSerivce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCacheSerivce.swift; sourceTree = "<group>"; };
+		544534C02B7A556100706DE2 /* MockCacheSerivce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCacheSerivce.swift; sourceTree = "<group>"; };
+		544534C32B7A559500706DE2 /* TestCacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCacheService.swift; sourceTree = "<group>"; };
+		54C84C572B79009000D9E708 /* TestovoeAstra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestovoeAstra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C84C5A2B79009000D9E708 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54C84C5C2B79009000D9E708 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		54C84C5E2B79009000D9E708 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54C84C612B79009000D9E708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54C84C632B79009300D9E708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54C84C662B79009300D9E708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54C84C682B79009300D9E708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C84C6D2B79009300D9E708 /* TestovoeAstraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestovoeAstraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C84C712B79009300D9E708 /* TestovoeAstraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestovoeAstraTests.swift; sourceTree = "<group>"; };
+		54C84C772B79009300D9E708 /* TestovoeAstraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestovoeAstraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C84C7B2B79009300D9E708 /* TestovoeAstraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestovoeAstraUITests.swift; sourceTree = "<group>"; };
+		54C84C7D2B79009300D9E708 /* TestovoeAstraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestovoeAstraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54C84C8C2B79029300D9E708 /* CacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
+		54C84C8E2B7902A900D9E708 /* CacheErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheErrors.swift; sourceTree = "<group>"; };
+		54C84C912B7902B400D9E708 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		54C84C942B7902BF00D9E708 /* KeyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyType.swift; sourceTree = "<group>"; };
+		54C84C962B7902CA00D9E708 /* ValueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54C84C542B79009000D9E708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C84C6A2B79009300D9E708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C84C742B79009300D9E708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		544534C22B7A558400706DE2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				544534C02B7A556100706DE2 /* MockCacheSerivce.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		54C84C4E2B79009000D9E708 = {
+			isa = PBXGroup;
+			children = (
+				54C84C592B79009000D9E708 /* TestovoeAstra */,
+				54C84C702B79009300D9E708 /* TestovoeAstraTests */,
+				54C84C7A2B79009300D9E708 /* TestovoeAstraUITests */,
+				54C84C582B79009000D9E708 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54C84C582B79009000D9E708 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54C84C572B79009000D9E708 /* TestovoeAstra.app */,
+				54C84C6D2B79009300D9E708 /* TestovoeAstraTests.xctest */,
+				54C84C772B79009300D9E708 /* TestovoeAstraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54C84C592B79009000D9E708 /* TestovoeAstra */ = {
+			isa = PBXGroup;
+			children = (
+				54C84C9A2B79048A00D9E708 /* Screens */,
+				54C84C992B79047800D9E708 /* Application */,
+				54C84C982B79047200D9E708 /* Resources */,
+				54C84C8A2B79027900D9E708 /* Services */,
+				54C84C682B79009300D9E708 /* Info.plist */,
+			);
+			path = TestovoeAstra;
+			sourceTree = "<group>";
+		};
+		54C84C702B79009300D9E708 /* TestovoeAstraTests */ = {
+			isa = PBXGroup;
+			children = (
+				544534C22B7A558400706DE2 /* Common */,
+				54C84C712B79009300D9E708 /* TestovoeAstraTests.swift */,
+				544534C32B7A559500706DE2 /* TestCacheService.swift */,
+			);
+			path = TestovoeAstraTests;
+			sourceTree = "<group>";
+		};
+		54C84C7A2B79009300D9E708 /* TestovoeAstraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54C84C7B2B79009300D9E708 /* TestovoeAstraUITests.swift */,
+				54C84C7D2B79009300D9E708 /* TestovoeAstraUITestsLaunchTests.swift */,
+			);
+			path = TestovoeAstraUITests;
+			sourceTree = "<group>";
+		};
+		54C84C8A2B79027900D9E708 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				54C84C8B2B79027F00D9E708 /* CacheService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		54C84C8B2B79027F00D9E708 /* CacheService */ = {
+			isa = PBXGroup;
+			children = (
+				54C84C932B7902BA00D9E708 /* CacheTypes */,
+				54C84C902B7902B000D9E708 /* Protocols */,
+				54C84C8C2B79029300D9E708 /* CacheService.swift */,
+				54C84C8E2B7902A900D9E708 /* CacheErrors.swift */,
+				544534BE2B7A375F00706DE2 /* MockCacheSerivce.swift */,
+			);
+			path = CacheService;
+			sourceTree = "<group>";
+		};
+		54C84C902B7902B000D9E708 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				54C84C912B7902B400D9E708 /* Cache.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		54C84C932B7902BA00D9E708 /* CacheTypes */ = {
+			isa = PBXGroup;
+			children = (
+				54C84C942B7902BF00D9E708 /* KeyType.swift */,
+				54C84C962B7902CA00D9E708 /* ValueType.swift */,
+			);
+			path = CacheTypes;
+			sourceTree = "<group>";
+		};
+		54C84C982B79047200D9E708 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54C84C602B79009000D9E708 /* Main.storyboard */,
+				54C84C632B79009300D9E708 /* Assets.xcassets */,
+				54C84C652B79009300D9E708 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		54C84C992B79047800D9E708 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				54C84C5A2B79009000D9E708 /* AppDelegate.swift */,
+				54C84C5C2B79009000D9E708 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		54C84C9A2B79048A00D9E708 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				54C84C5E2B79009000D9E708 /* ViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54C84C562B79009000D9E708 /* TestovoeAstra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C84C812B79009300D9E708 /* Build configuration list for PBXNativeTarget "TestovoeAstra" */;
+			buildPhases = (
+				54C84C532B79009000D9E708 /* Sources */,
+				54C84C542B79009000D9E708 /* Frameworks */,
+				54C84C552B79009000D9E708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestovoeAstra;
+			productName = TestovoeAstra;
+			productReference = 54C84C572B79009000D9E708 /* TestovoeAstra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54C84C6C2B79009300D9E708 /* TestovoeAstraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C84C842B79009300D9E708 /* Build configuration list for PBXNativeTarget "TestovoeAstraTests" */;
+			buildPhases = (
+				54C84C692B79009300D9E708 /* Sources */,
+				54C84C6A2B79009300D9E708 /* Frameworks */,
+				54C84C6B2B79009300D9E708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C84C6F2B79009300D9E708 /* PBXTargetDependency */,
+			);
+			name = TestovoeAstraTests;
+			productName = TestovoeAstraTests;
+			productReference = 54C84C6D2B79009300D9E708 /* TestovoeAstraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54C84C762B79009300D9E708 /* TestovoeAstraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C84C872B79009300D9E708 /* Build configuration list for PBXNativeTarget "TestovoeAstraUITests" */;
+			buildPhases = (
+				54C84C732B79009300D9E708 /* Sources */,
+				54C84C742B79009300D9E708 /* Frameworks */,
+				54C84C752B79009300D9E708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C84C792B79009300D9E708 /* PBXTargetDependency */,
+			);
+			name = TestovoeAstraUITests;
+			productName = TestovoeAstraUITests;
+			productReference = 54C84C772B79009300D9E708 /* TestovoeAstraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54C84C4F2B79009000D9E708 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					54C84C562B79009000D9E708 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					54C84C6C2B79009300D9E708 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 54C84C562B79009000D9E708;
+					};
+					54C84C762B79009300D9E708 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 54C84C562B79009000D9E708;
+					};
+				};
+			};
+			buildConfigurationList = 54C84C522B79009000D9E708 /* Build configuration list for PBXProject "TestovoeAstra" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54C84C4E2B79009000D9E708;
+			productRefGroup = 54C84C582B79009000D9E708 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54C84C562B79009000D9E708 /* TestovoeAstra */,
+				54C84C6C2B79009300D9E708 /* TestovoeAstraTests */,
+				54C84C762B79009300D9E708 /* TestovoeAstraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54C84C552B79009000D9E708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C84C672B79009300D9E708 /* LaunchScreen.storyboard in Resources */,
+				54C84C642B79009300D9E708 /* Assets.xcassets in Resources */,
+				54C84C622B79009000D9E708 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C84C6B2B79009300D9E708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C84C752B79009300D9E708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54C84C532B79009000D9E708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C84C5F2B79009000D9E708 /* ViewController.swift in Sources */,
+				54C84C972B7902CA00D9E708 /* ValueType.swift in Sources */,
+				54C84C8F2B7902A900D9E708 /* CacheErrors.swift in Sources */,
+				54C84C5B2B79009000D9E708 /* AppDelegate.swift in Sources */,
+				54C84C8D2B79029300D9E708 /* CacheService.swift in Sources */,
+				54C84C922B7902B400D9E708 /* Cache.swift in Sources */,
+				544534BF2B7A375F00706DE2 /* MockCacheSerivce.swift in Sources */,
+				54C84C952B7902BF00D9E708 /* KeyType.swift in Sources */,
+				54C84C5D2B79009000D9E708 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C84C692B79009300D9E708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544534C12B7A556100706DE2 /* MockCacheSerivce.swift in Sources */,
+				54C84C722B79009300D9E708 /* TestovoeAstraTests.swift in Sources */,
+				544534C42B7A559500706DE2 /* TestCacheService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C84C732B79009300D9E708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C84C7C2B79009300D9E708 /* TestovoeAstraUITests.swift in Sources */,
+				54C84C7E2B79009300D9E708 /* TestovoeAstraUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54C84C6F2B79009300D9E708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C84C562B79009000D9E708 /* TestovoeAstra */;
+			targetProxy = 54C84C6E2B79009300D9E708 /* PBXContainerItemProxy */;
+		};
+		54C84C792B79009300D9E708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C84C562B79009000D9E708 /* TestovoeAstra */;
+			targetProxy = 54C84C782B79009300D9E708 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54C84C602B79009000D9E708 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C84C612B79009000D9E708 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54C84C652B79009300D9E708 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C84C662B79009300D9E708 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54C84C7F2B79009300D9E708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54C84C802B79009300D9E708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54C84C822B79009300D9E708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 876B4F97B7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestovoeAstra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testApp.TestovoeAstra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54C84C832B79009300D9E708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 876B4F97B7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestovoeAstra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testApp.TestovoeAstra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54C84C852B79009300D9E708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 876B4F97B7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testApp.TestovoeAstraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestovoeAstra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestovoeAstra";
+			};
+			name = Debug;
+		};
+		54C84C862B79009300D9E708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 876B4F97B7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testApp.TestovoeAstraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestovoeAstra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestovoeAstra";
+			};
+			name = Release;
+		};
+		54C84C882B79009300D9E708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 876B4F97B7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testApp.TestovoeAstraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestovoeAstra;
+			};
+			name = Debug;
+		};
+		54C84C892B79009300D9E708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 876B4F97B7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testApp.TestovoeAstraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestovoeAstra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54C84C522B79009000D9E708 /* Build configuration list for PBXProject "TestovoeAstra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C84C7F2B79009300D9E708 /* Debug */,
+				54C84C802B79009300D9E708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C84C812B79009300D9E708 /* Build configuration list for PBXNativeTarget "TestovoeAstra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C84C822B79009300D9E708 /* Debug */,
+				54C84C832B79009300D9E708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C84C842B79009300D9E708 /* Build configuration list for PBXNativeTarget "TestovoeAstraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C84C852B79009300D9E708 /* Debug */,
+				54C84C862B79009300D9E708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C84C872B79009300D9E708 /* Build configuration list for PBXNativeTarget "TestovoeAstraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C84C882B79009300D9E708 /* Debug */,
+				54C84C892B79009300D9E708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54C84C4F2B79009000D9E708 /* Project object */;
+}
